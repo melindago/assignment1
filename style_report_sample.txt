@@ -1,0 +1,35 @@
+File Structure
+Total lines: 19
+
+Imports
+import os
+import sys
+
+Classes
+SampleClass:
+
+Functions
+method_with_annotation
+method_without_annotation
+sample_function
+function_without_annotation
+
+DocStrings
+Class SampleClass:: """This is a sample class."""
+
+Method method_with_annotation in SampleClass:: """Method with annotation."""
+
+Method method_without_annotation in SampleClass:: DocString not found
+
+Method sample_function in SampleClass:: """A sample function."""
+
+Method function_without_annotation in SampleClass:: DocString not found
+
+Type Annotation Check
+All functions and methods use type annotations
+
+Naming Convention Check
+Non-Compliant Classes
+SampleClass:
+Non-Compliant Functions
+All functions follow snake_case
